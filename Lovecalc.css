@@ -1,0 +1,42 @@
+body {
+
+      background-color: aqua;
+      display : flex;
+      flex-direction: column;
+      align-items: center;
+      height: 100vh;
+      gap: 20px;
+
+}
+
+
+.name { 
+      margin-top : 150px;
+      margin-left : 48px;
+      background-color: bisque;
+}
+
+.crush-name {
+
+    background-color: bisque;
+}
+
+.Match {
+      
+       margin-left : 80px;
+       border-radius : 50%;
+       margin-top : 200px;
+}
+
+.h1 {
+    color: black;
+    font-family: system-ui;
+}
+
+.name-font {
+    font-family: cursive;
+}
+
+.crushname-font {
+    font-family: cursive;
+}
