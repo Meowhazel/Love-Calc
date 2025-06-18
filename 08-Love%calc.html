@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head><title>Love%Calculator</title>
+<link rel="stylesheet" href="Lovecalc.css">
+</head>
+
+<body> 
+
+    <h1 class="h1">Love % Calculator</h1>
+
+
+<div><label for="name" class="name-font">Name:</label>
+<input type="name" placeholder = "Your name" class="name" id="name"></div>
+
+
+<div><label for="crush-name" class="crushname-font">Crush Name:</label>
+<input type="name" placeholder="Your crush's name" class="crush-name" id="crush-name"></div>
+
+
+<button class="Match"
+
+onclick="
+
+let name1 = document.getElementById('name').value;
+let name2 = document.getElementById('crush-name').value;
+let lovePercentage = '';
+
+if (name1 && name2) {lovePercentage = Math.floor(Math.random() * 101 );} 
+
+
+
+">Matchꨄ︎percentage</button>
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+</html>
