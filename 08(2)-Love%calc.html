@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+ <head><title>Love Calculator 2</title>
+<link rel="stylesheet" href="lovecalc2.css">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Great+Vibes&family=Satisfy&family=Sacramento&family=Dancing+Script&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <h1 class="h1">Love Calculator</h1>
+    
+    
+ <div class="container">
+   <div><label class="L1">Your name:</label><input type="name" placeholder="Your name" class="name" id="name"></div>
+
+   <div><label class="L2">Lover's name:</label><input type="name" placeholder="Your Lover's name" class="Ln" id="lover-name"></div>
+   <div><button class="button"
+    
+    onclick="
+        
+        let name1 = document.getElementById('name').value;
+        let name2 = document.getElementById('lover-name').value;
+        let lovePercentage = '';
+
+        if (name1 && name2) {lovePercentage = Math.floor(Math.random()*101);}
+
+        if(lovePercentage < 70 ) {  document.getElementById('result').innerText = `${name1} 💔 ${name2} : ${lovePercentage}% match!`;}
+        if (lovePercentage >= 70) {   document.getElementById('result').innerText = `${name1} ❤️ ${name2} : ${lovePercentage}% match!`;}
+
+        
+        
+        ">Matchꨄ︎percentage
+   </button></div>
+</div>
+
+<p id="result"></p>
+
+</body>
+ 
+
+
+</html>
